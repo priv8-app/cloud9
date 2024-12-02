@@ -1,5 +1,5 @@
 
-# 🚀 Cloud9 Installation Script By Priv8 Tools 🌟
+# 🚀 Easy Cloud9 Installation Script By Priv8 Tools 🌟
 
 Welcome to the **Cloud9 Installation Script**! This script simplifies the setup of a Cloud9 IDE server on your system using Docker. With just a few steps, you'll have your Cloud9 IDE up and running with a sleek Jet Theme. 🖥️
 
@@ -8,7 +8,6 @@ Welcome to the **Cloud9 Installation Script**! This script simplifies the setup 
 ## 🎯 Features
 - ✅ Automated installation for Ubuntu and Debian systems.
 - ✅ Installs Docker via Snap and pulls the latest Cloud9 Docker image.
-- ✅ Configures Cloud9 with **Jet Theme** and **Vibrant Ink** editor theme.
 - ✅ Displays public IP for easy access to your Cloud9 server.
 
 ---
@@ -54,7 +53,6 @@ Installs Docker via Snap and pulls the Cloud9 Docker image.
 	4.	Run Cloud9 Server
 Configures Cloud9 with:
 	•	Jet Theme
-	•	Vibrant Ink editor theme
 	•	Access credentials (username and password)
 	5.	Public IP Fetching
 Retrieves your public IP address for easy access to the IDE.
@@ -77,6 +75,9 @@ Once the installation is complete, you’ll see:
 📬 Contact
 
 If you encounter any issues or have suggestions, please reach out to the Priv8 Tools team.
+
+Telegram Admin : https://t.me/admpriv8tools
+Telegram Chanel : https://t.me/c_priv8tools
 
 Happy coding! 🎉
 
