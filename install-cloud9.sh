@@ -34,6 +34,7 @@ fi
 
 print_message "$YELLOW" "⚙️ Step 1: Updating and upgrading system for $OS..."
 sudo apt update -y && sudo apt upgrade -y && sudo apt install snapd git -y
+sleep 5
 if [ $? -eq 0 ]; then
   print_message "$GREEN" "✅ System updated and upgraded successfully."
 else
@@ -43,6 +44,7 @@ fi
 
 print_message "$YELLOW" "🐳 Step 2: Installing Docker..."
 sudo snap install docker
+sleep 5
 if [ $? -eq 0 ]; then
   print_message "$GREEN" "✅ Docker installed successfully."
 else
@@ -52,6 +54,7 @@ fi
 
 print_message "$YELLOW" "📥 Step 3: Pulling Cloud9 Docker image..."
 sudo docker pull lscr.io/linuxserver/cloud9
+sleep 5
 if [ $? -eq 0 ]; then
   print_message "$GREEN" "✅ Cloud9 Docker image pulled successfully."
 else
