@@ -82,17 +82,16 @@ print_message "$YELLOW" "⏳ Waiting for 1 minute before proceeding to Step 5...
 sleep 60
 
 print_message "$YELLOW" "⚙️ Step 5: Configuring Cloud9 container..."
-sudo docker exec -it Priv8-Tools /bin/bash <<EOF
-apt update -y
-apt upgrade -y
-apt install wget -y
-apt install php-cli -y
-apt install php-curl -y
-cd /c9bins/.c9/
-rm -rf user.settings
-wget https://raw.githubusercontent.com/priv8-app/cloud9/refs/heads/main/user.settings
-exit
-EOF
+sudo docker exec Priv8-Tools /bin/bash -c "
+  apt update -y && \
+  apt upgrade -y && \
+  apt install wget -y && \
+  apt install php-cli -y && \
+  apt install php-curl -y && \
+  cd /c9bins/.c9/ && \
+  rm -rf user.settings && \
+  wget https://raw.githubusercontent.com/priv8-app/cloud9/refs/heads/main/user.settings
+"
 if [ $? -eq 0 ]; then
   print_message "$GREEN" "✅ Cloud9 container configured successfully."
 else
