@@ -1,0 +1,41 @@
+{
+    "ace": {
+        "@cursorStyle": "ace",
+        "@keyboardmode": "default",
+        "@showGutter": true,
+        "@theme": "ace/theme/vibrant_ink",
+        "statusbar": {
+            "@show": true
+        }
+    },
+    "debug": {
+        "@pause": 0
+    },
+    "general": {
+        "@propose": "",
+        "@skin": "jett-dark"
+    },
+    "openfiles": {
+        "@show": false
+    },
+    "output": {
+        "@backgroundColor": "#003a58",
+        "@foregroundColor": "#FFFFFF",
+        "@selectionColor": "#225477"
+    },
+    "projecttree": {
+        "@showhidden": true
+    },
+    "tabs": {
+        "@show": true
+    },
+    "terminal": {
+        "@antialiasedfonts": true,
+        "@backgroundColor": "#153649",
+        "@foregroundColor": "#FFFFFF",
+        "@selectionColor": "#515D77"
+    },
+    "welcome": {
+        "@first": true
+    }
+}
