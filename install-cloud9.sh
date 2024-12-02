@@ -124,4 +124,5 @@ print_message "$BLUE" "==========================================="
 print_message "$YELLOW" "🌟 Access Cloud9 at: http://$PUBLIC_IP:8000"
 print_message "$YELLOW" "🔑 Username: $USERNAME"
 print_message "$YELLOW" "🔑 Password: $PASSWORD"
-print_message "$YELLOW" "==========================================="
+print_message "$YELLOW" "=========================================="
+sudo rm -rf install-cloud9.sh c9.sh
