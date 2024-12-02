@@ -67,8 +67,6 @@ sudo docker run -d \
   --name=Priv8-Tools \
   -e USERNAME=$USERNAME \
   -e PASSWORD=$PASSWORD \
-  -e C9_SKIN=jett-dark \
-  -e C9_THEME=ace/theme/vibrant_ink \
   -p 8000:8000 \
   lscr.io/linuxserver/cloud9:latest
 if [ $? -eq 0 ]; then
