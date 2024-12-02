@@ -111,9 +111,9 @@ After installation, you’ll receive the following details:
 📬 Contact & Support
 
 Encountering issues or have suggestions? Reach out to the Priv8 Tools team:
-	•	Telegram: @admpriv8tools
-	•	Discord: Join our Discord
-	•	YouTube: Priv8 Tools Channel
+	•	Telegram: [@admpriv8tools](https://t.me/admpriv8tools)
+	•	Discord: [Join our Discord](https://discord.com/invite/c8vXSaCScq)
+	•	YouTube: [Priv8 Tools Channel](http://m.youtube.com/@c_priv8tools)
 
 Happy coding! 🎉
 
