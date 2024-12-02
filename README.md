@@ -43,20 +43,20 @@ Follow these steps to install the Cloud9 IDE using the script:
    ```bash
    git clone https://github.com/priv8tools/cloud9-installer.git
    cd cloud9-installer
-   ```
+   
 
-	2.	Make the Script Executable
-```bash
-chmod +x install-cloud9.sh
+2. **Make the Script Executable**
+ ```bash
+  chmod +x install-cloud9.sh
 ```
 
 
-	3.	Run the Script
+3.**Run the Script**
 ```bash
 ./install-cloud9.sh
 ```
 
-	4.	Follow On-Screen Instructions
+4. **Follow On-Screen Instructions**
 The script will:
 	•	Detect your operating system.
 	•	Update and upgrade your system packages.
